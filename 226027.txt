@@ -1,0 +1,36 @@
+Откако го креирав remote репозиториумот, направив нова датотека каде го иницијализирав git.
+- git init - го иницијализира git
+- git remote origin <LINK> - се поврзува remote репозиториумот со локалниот
+- git add README.md - README фајлот го носам во фаза staged
+- git commit -m "Initiaal commit" - правам иницијален commit на master гранката со име "Initial commit"
+- git add SILab1_1.java SILab1_2.java SILab1Main.java - ги додавам јава фајловите во staged фаза
+- git commit -m "Add starter code" - правам commit кој ги додава новите фајлови на репозиториумот
+- git pull
+- git push origin master - со овие две команди се синхронизира repo-то
+- git checkout -m bug1 - креирам branch bug1 и се префрлам на неа
+- git add SILab1_1.java - по менување на фајлот, го додавама на stage
+- git commit -m "Fix wrong condition in filterOddLengthStrings" - правам commit за новите промени на bug1
+- git checkout master - се префрлам на гранката master
+- git checkout -b bug2 - правама нова гранка од мастер со име bug2
+- git add SILab1_2.java - по промената на фајлот, го додавам на stage
+- git commit -m "Fix wrong condition in makeBigStringFrom" - правам commit за новите промени
+- git checkout bug1 - се префрлам на гранката bug1
+- git add SILab1Main.java - го ставам променетиот фајл на stage
+- git commit -m "Call method filterOddLengthStrings in main class" - правам commit со новите промени
+- git checkout bug2 - се префрлам на гранката bug2
+- git add SILab1Main.java
+- git commit -m "Call method makeBigStringFrom in main class"
+- git checkout master
+- git pull
+- git push origin bug1 bug2
+- git merge bug1
+- git pull
+- git push origin master
+- git checkout bug2
+- git rebase master
+- git add SILab1Main.java
+- git rebase --continue
+- git checkout master
+- git merge bug2
+- git pull
+- git push origin master

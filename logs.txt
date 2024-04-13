@@ -1,0 +1,29 @@
+commit db0d2c3d99a99318dbc46605aff3e1a26637ceb2
+Author: Al3ks9 <132920293+Al3ks9@users.noreply.github.com>
+Date:   Sat Apr 13 12:35:58 2024 +0200
+
+    Fix wrong condition in makeBigStringFrom
+
+commit c8597eb5aac2c318d842ca16265a2847405686b2
+Author: Al3ks9 <132920293+Al3ks9@users.noreply.github.com>
+Date:   Sat Apr 13 12:39:48 2024 +0200
+
+    Call method filterOddLengthStrings in main class
+
+commit 1af59150c3cf959185a3798c4e0986207340c9e4
+Author: Al3ks9 <132920293+Al3ks9@users.noreply.github.com>
+Date:   Sat Apr 13 12:30:15 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit b334cfb502dbca0dbebb7fb965f3ef48bb9f839e
+Author: Al3ks9 <132920293+Al3ks9@users.noreply.github.com>
+Date:   Sat Apr 13 12:21:05 2024 +0200
+
+    Add starter code
+
+commit 5f569462eea4479a63cd1f723077a5c31f2c1a7d
+Author: Al3ks9 <132920293+Al3ks9@users.noreply.github.com>
+Date:   Sat Apr 13 12:12:49 2024 +0200
+
+    Initial commit
